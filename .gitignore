@@ -3,3 +3,4 @@ npm-cache/
 cypress/videos/
 cypress/screenshots/
 .DS_Store
+.idea
