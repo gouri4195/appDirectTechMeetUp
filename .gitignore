@@ -1,0 +1,6 @@
+node_modules/
+npm-cache/
+cypress/videos/
+cypress/screenshots/
+.DS_Store
+.idea
