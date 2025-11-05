@@ -1,6 +1,11 @@
 const { defineConfig } = require('cypress');
 
 module.exports = defineConfig({
+    requestTimeout: 30000,
+    responseTimeout: 30000,
+    pageLoadTimeout: 120000,
+    chromeWebSecurity: false,
+    watchForFileChanges: false,
   e2e: {
     baseUrl: 'https://opensource-demo.orangehrmlive.com',
     supportFile: 'cypress/support/e2e.js',
@@ -10,5 +15,5 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       return config;
     },
-  },
+  }
 });

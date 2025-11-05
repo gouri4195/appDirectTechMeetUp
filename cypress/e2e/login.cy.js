@@ -1,8 +1,8 @@
 describe('Login test', () => {
-  const username = 'Admin';
-  const password = 'admin123';
+  const username = cypress.env('username');
+  const password = cypress.env('password');
 
-  it('visits the app root', () => {
+  it('Login with valid credentials', () => {
     cy.login(username, password);
   });
 });
