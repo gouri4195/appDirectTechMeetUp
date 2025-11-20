@@ -139,7 +139,28 @@ Verify the version:
 
 npx cypress --version
 
-**7. Troubleshooting**
+
+**7.Install Cursor (AI Coding Editor)**
+
+
+**Installation on Windows**
+1.Go to the Cursor website: https://cursor.sh
+2.Click Download for Windows (.exe).
+3.Open the downloaded installer.
+4.Approve any security prompts (Windows Defender SmartScreen).
+5.Follow the on-screen install steps.
+6.Launch Cursor from the Start Menu.
+7.Sign in with GitHub or Google
+
+
+**Installation on macOS**
+1.Visit https://cursor.sh
+2.Download Cursor for macOS (.dmg).
+3.Open the .dmg, then drag Cursor.app into Applications.
+4.Run Cursor (you may need to allow it in System Settings → Privacy & Security).
+5.Sign in using GitHub/Google.
+
+**8. Troubleshooting**
 | **Issue**                     | **Possible Solution**                                                                |
 | ----------------------------- | ------------------------------------------------------------------------------------ |
 | Cypress fails to launch       | Ensure Node.js version ≥ 14 and system meets requirements.                           |
