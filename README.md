@@ -32,32 +32,33 @@ npm -v
 If Node.js or npm is not installed, download and install from 👉 https://nodejs.org
 
 **3. Installation Steps**
+
 **3.1 Installation on Windows**
 
 Open Command Prompt or PowerShell
 Press Windows + R, type cmd, and press Enter.
 
-Navigate to the Project Directory
+**Navigate to the Project Directory**
 
 cd C:\path\to\your\project
 
 
-Initialize a Node.js Project (if not already created)
+**Initialize a Node.js Project (if not already created)**
 
 npm init -y
 
 
-Install Cypress via npm
+**Install Cypress via npm**
 
 npm install cypress --save-dev
 
 
-Verify Installation
+**Verify Installation**
 
 npx cypress verify
 
 
-Open Cypress Test Runner
+**Open Cypress Test Runner**
 
 npx cypress open
 
@@ -68,34 +69,35 @@ This command launches the Cypress Test Runner application.
 Open Terminal
 (Located in Applications → Utilities → Terminal)
 
-Navigate to the Project Directory
+**Navigate to the Project Directory**
 
 cd /path/to/your/project
 
 
-Initialize a Node.js Project (if not already created)
+**Initialize a Node.js Project (if not already created)**
 
 npm init -y
 
 
-Install Cypress via npm
+**Install Cypress via npm**
 
 npm install cypress --save-dev
 
 
-Verify Installation
+**Verify Installation**
 
 npx cypress verify
 
 
-Launch Cypress Test Runner
+**Launch Cypress Test Runner**
 
 npx cypress open
 
 **4. Alternative Installation Methods**
+
 **4.1 Using Yarn**
 
-If you use Yarn as your package manager, install Cypress using:
+**If you use Yarn as your package manager, install Cypress using:**
 
 yarn add cypress --dev
 
@@ -130,12 +132,12 @@ npx cypress open
 
 **6. Updating Cypress**
 
-To update Cypress to the latest version:
+**To update Cypress to the latest version:**
 
 npm install cypress@latest --save-dev
 
 
-Verify the version:
+**Verify the version:**
 
 npx cypress --version
 
